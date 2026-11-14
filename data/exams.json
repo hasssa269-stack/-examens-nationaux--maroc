@@ -1,3 +1,4 @@
+
 {
   "version": 1,
   "years": [
@@ -5,7 +6,23 @@
     2014, 2015, 2016, 2017, 2018, 2019,
     2020, 2021, 2022, 2023, 2024, 2025
   ],
-  "sessions": ["normale", "rattrapage"],
-  "branches": [],
+  "sessions": [
+    "normale",
+    "rattrapage"
+  ],
+  "branches": [
+    {"id": "sciences_physiques", "name": "العلوم الفيزيائية"},
+    {"id": "svt", "name": "علوم الحياة والأرض"},
+    {"id": "sciences_math_a", "name": "العلوم الرياضية أ"},
+    {"id": "sciences_math_b", "name": "العلوم الرياضية ب"},
+    {"id": "sciences_economiques", "name": "العلوم الاقتصادية"},
+    {"id": "gestion_comptabilite", "name": "علوم التدبير المحاسباتي"},
+    {"id": "lettres", "name": "الآداب"},
+    {"id": "sciences_humaines", "name": "العلوم الإنسانية"},
+    {"id": "ste", "name": "العلوم والتكنولوجيات الكهربائية"},
+    {"id": "stm", "name": "العلوم والتكنولوجيات الميكانيكية"},
+    {"id": "arts_appliques", "name": "الفنون التطبيقية"},
+    {"id": "enseignement_originel", "name": "التعليم الأصيل"}
+  ],
   "exams": []
 }
